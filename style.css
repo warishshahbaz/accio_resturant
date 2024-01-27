@@ -1,0 +1,369 @@
+body {
+  background-color: #000000;
+  color: #fff;
+}
+
+.header nav {
+  height: 7vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+  color: white;
+}
+.list_item,
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+h3 {
+  padding: 0px 12px;
+}
+.list_item,
+ul,
+li {
+  padding: 0px 12px;
+  text-decoration: none;
+  font-style: none;
+}
+/***** hero section***** */
+.containers {
+  width: 100%;
+  position: relative;
+  background-color: #000000;
+  color: white;
+}
+.img_container {
+  width: 100%;
+  height: 80vh;
+}
+img {
+  object-fit: cover;
+  height: 80vh;
+}
+.hero_heading {
+  width: 400px;
+  position: absolute;
+  top: 150px;
+  left: 20px;
+}
+.hero_heading h2 {
+  font-size: 3rem;
+}
+
+.hero_hr {
+  position: relative;
+  right: 52px;
+  height: 6px;
+  background: red;
+  width: 300px;
+  margin-bottom: 50px;
+  border: none;
+}
+/***********************About US ************/
+.about_us {
+  padding: 5px 52px;
+}
+.about_us h2 {
+  text-align: center;
+}
+.about_hr {
+  height: 6px;
+  background: red;
+  width: 300px;
+
+  border: none;
+}
+.about_image_container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 32px;
+}
+.about_container_text {
+  width: 50%;
+  margin-right: 22px;
+}
+.about_text_hr {
+  height: 6px;
+  width: 100%;
+  background: red;
+  border: none;
+}
+.img_box {
+  flex: 1/2;
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+.img_box img {
+  object-fit: cover;
+  height: 300px;
+  border-radius: 12px;
+}
+/*********************************** MENU */
+.menu_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  flex-wrap: wrap;
+}
+.menu {
+  padding: 5px 52px;
+  text-align: center;
+}
+.menu_cart {
+  width: 50%;
+  display: flex;
+  margin: 5px 0px;
+}
+
+.menu_cart img {
+  height: 80px;
+  object-fit: cover;
+}
+.cart_item img {
+  width: 120px;
+  height: 70px;
+  border-radius: 12px;
+}
+.cart_item_desc {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  text-align: start;
+  padding: 5px 12px;
+}
+.cart_item_desc span {
+  color: #f2c94c;
+  padding: 0px 22px;
+}
+.cart_item_desc p {
+  padding: 0px 22px;
+}
+.carousel_box {
+  margin-top: 12px;
+  padding: 5px 52px;
+}
+
+/**********************Gallary**************** */
+
+.gallary {
+  padding: 5px 52px;
+}
+.gallary_img_con {
+  height: 80vh;
+  /* border: 1px solid; */
+}
+.img_container_gall {
+  /* border: 1px solid wheat; */
+}
+.gallary_img_main {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.gallary_row {
+  height: 500px;
+}
+.gallary_row_col1 {
+  height: 100%;
+}
+
+.gallary_row_col2 {
+  height: 100%;
+}
+.gallary_row_item {
+  height: 100px;
+}
+
+.grid_img {
+  height: 160px;
+  width: 190px;
+  object-fit: cover;
+}
+.gallary_row_item {
+  margin-bottom: 12px;
+}
+.gallary_cell2_img {
+  height: 242px;
+  width: 190px;
+  object-fit: cover;
+}
+.gallary_img_cell {
+  margin: 2px;
+}
+/***************************Find us *****************/
+.find_us {
+  padding: 5px 52px;
+  width: 100%;
+}
+.find_us_container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.find_contact {
+  width: 50%;
+}
+.find_contact,
+p {
+  padding: 0px 0px 32px 0px;
+}
+.find_map {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+}
+.location_img {
+  width: 20px;
+  height: 20px;
+}
+.location_box {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin: 12px;
+}
+.map_img {
+  width: 80%;
+  height: 70%;
+}
+/****************************** footer ****************************/
+.footer {
+  padding: 5px 52px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.group_img {
+  height: 100px;
+}
+.footer_content {
+  width: 220px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media only screen and (max-width: 450px) {
+  .header,
+  nav,
+  h3 {
+    font-size: 0.5rem;
+  }
+  .social-icons {
+    display: none;
+  }
+
+  .hero_heading {
+    width: 100%;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+  }
+  .hero_heading h2 {
+    font-size: 1rem;
+  }
+  .hero_hr {
+    position: relative;
+    right: 52px;
+    height: 2px;
+
+    width: 100px;
+  }
+  .hero_heading p {
+    width: 60%;
+    font-size: 0.5rem;
+  }
+  .about_us {
+    padding: 0px 22px;
+  }
+  .about_image_container {
+    flex-direction: column;
+  }
+  .img_box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .img_box img {
+    object-fit: cover;
+    height: 200px;
+  }
+  .about_container_text {
+    width: 100%;
+  }
+  .menu_container {
+    flex-direction: column;
+  }
+  .cart_item_desc {
+    width: 100%;
+    height: 140px;
+  }
+
+  .cart_item_desc {
+    padding: 2px 5px;
+  }
+  .cart_item_desc p {
+    overflow: hidden;
+    text-overflow: hide;
+  }
+  .find_us_container {
+    flex-direction: column;
+  }
+}
+
+/***** icon***** */
+.social-icons {
+  padding: 0px 12px;
+
+  text-align: center;
+}
+.social-icons a {
+  color: #fff;
+  line-height: 30px;
+  font-size: 12px;
+  margin: 0 5px;
+  text-decoration: none;
+}
+.social-icons a i {
+  line-height: 30px;
+  font-size: 15px;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1);
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1);
+  transition: all 200ms ease-in;
+  transform: scale(1);
+}
+li:hover {
+  box-shadow: 0px 0px 150px #000000;
+  z-index: 2;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1.5);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1.5);
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1.5);
+  transition: all 200ms ease-in;
+  transform: scale(1.5);
+  cursor: pointer;
+}
+.social-icons a:hover i {
+  box-shadow: 0px 0px 150px #000000;
+  z-index: 2;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1.5);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1.5);
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1.5);
+  transition: all 200ms ease-in;
+  transform: scale(1.5);
+}
